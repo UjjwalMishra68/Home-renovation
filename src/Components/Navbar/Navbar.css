@@ -1,0 +1,98 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    min-height: 88px;
+    color: var(--Text);
+    display: flex;
+    background-color: var(--Background-light);
+    font-family: "Lato";
+}
+.navbar__container{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.nav__left .logo{
+    font-size: 2.4rem;
+    font-weight: 900;
+    cursor: pointer;
+    display: block;
+}
+.nav__right ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 3.2rem;
+    font-size: 1.8rem;
+}
+.nav__right ul li .nav__links {
+    font-size: 1.8rem;
+    cursor: pointer;
+    position: relative;
+    display: none;
+}
+
+.links__container {
+    transition: all 0.5s ease;
+    display: block;
+    position: relative;
+    height: 25px;
+    overflow: hidden;
+}
+
+.links__inner {
+    display: block;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.hover__text {
+    display: block;
+    position: absolute;
+    transition: transform 0.3s ease, top 0.3s ease;
+    top: 25px;
+}
+
+.links__container:hover .links__inner,
+.links__container:hover .hover__text {
+    transform: translateY(-25px);
+}
+
+.nav__right ul li i{
+    font-size: 3rem;
+    cursor: pointer;
+    display: block;
+}
+.nav__links::after{
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 1.55px;
+    background-color: var(--Text);
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s ease;
+}
+.nav__links:hover::after{
+    width: 100%;
+}
+.nav__right ul li button{
+    padding: 10px 24px;
+    font-size: 1.8rem;
+    display: none;
+}
+
+/* md */
+@media (min-width: 768px) {
+    .nav__right ul li .nav__links,.nav__right ul li button {
+        display: block;
+    }
+    .nav__right ul li i{
+        display: none;
+    }
+}

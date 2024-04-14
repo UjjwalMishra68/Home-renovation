@@ -1,0 +1,28 @@
+[
+    {
+        "name":"John Smith",
+        "review":"I am extremely happy with the kitchen renovation done by this company. The modern design and attractive finishes have completely transformed my kitchen. The quality of their work is outstanding!",
+        "image":"./JohnSmith.png"
+    },
+    {
+        "name":"Emily Johnson",
+        "review":"I recently had my bathroom redone by this company, and I'm thrilled with the result. The design is exactly what I wanted—modern and simple. The team was fantastic and completed the job on time.",
+        "image":"./EmilyJohnson.png"
+    },
+    {
+        "name":"Michael Davis",
+        "review":"I highly recommend this company for kitchen and bathroom renovations. They transformed my kitchen into a modern, functional, and beautiful space. The team's professionalism and attention to detail were impressive.",
+        "image":"./JohnSmith.png"
+    },
+    {
+        "name":"Sarah Thompson",
+        "review":"I am so impressed with the bathroom renovation done by this company. The modern design and attractive features have exceeded my expectations. The team was skilled and the project was hustle free.",
+        "image":"./EmilyJohnson.png"
+    },
+    {
+        "name":"David Wilson",
+        "review":"I am extremely satisfied with the kitchen renovation done by this company. The modern and minimalistic design they created is exactly what I envisioned. The team was professional and the quality of their work is exceptional.",
+        "image":"./JohnSmith.png"
+    }
+
+]

@@ -1,0 +1,110 @@
+.contact{
+    min-height: 72rem;
+    background-color: #fffffe;
+}
+.contact__container{
+    padding: 4.8rem 0rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3.6rem;
+}
+.contact__wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+}
+.contact__left{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+.sub-heading{
+    font-weight: 700;
+}
+.contact__heading{
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: var(--Text);
+}
+.contact p{
+    max-width: 40rem;
+    font-size: 1.8rem;
+    opacity: 90%;
+}
+.contact__left ul li{
+    font-size: 1.8rem;
+    color: var(--Paragraph);
+    list-style: none;
+    opacity: 90%;
+}
+.contact__right form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .2rem;
+}
+label{
+    font-size: 1.8rem;
+    font-weight: 600;
+    opacity: 90%;
+}
+input{
+    max-width:60rem;;
+    display: block;
+    height: 5.6rem;
+    padding: 0rem 1.6rem;
+    border-radius: 8px;
+    border: 0;
+    outline: none;
+    background-color: var(--Card);
+    color: var(--Text);
+    margin: 1.6rem 0rem;
+}
+input::placeholder,textarea::placeholder{
+    color: var(--Text);
+    font-size: 1.6rem;
+}
+textarea{
+    border-radius: 8px;
+    max-width: 60rem;;
+    display: block;
+    border: 0;
+    outline: none;
+    background-color: var(--Card);
+    color: var(--Text);
+    margin: 1.6rem 0rem;
+    padding: 1.6rem 1.6rem;
+
+}
+.contact__button{
+    max-width: max-content;
+    color: #fffffe;
+    font-weight: 700;
+}
+.address {
+    color: #f25042;
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .contact__container{
+        gap: 7.2rem;
+    }
+    .contact__wrapper{
+        display: flex;
+        flex-direction: row;
+        gap: 4.8rem;
+    }
+    .contact__wrapper>div{
+        width: calc(100%/2);
+    }
+    .contact__left{
+        align-items: flex-start;
+    }
+    .contact p{
+        text-align: start;
+        max-width: 80%;
+    }
+}

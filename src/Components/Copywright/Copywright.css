@@ -1,0 +1,14 @@
+.copywright{
+    background-color: var(--Card);
+    min-height: 5.6rem;
+    display: flex;
+}
+.copywright__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copywright__container p{
+    font-weight: 700;
+    cursor: pointer;
+}
